@@ -1,9 +1,8 @@
 "use client";
-import Contents from "@/components/Contents";
-import Shorts from "@/components/Shorts";
+
 import styled from "@emotion/styled";
 
-export default function Home() {
+const ReelsPage = () => {
   return (
     <Container>
       {/* <LeftSide>
@@ -38,7 +37,9 @@ export default function Home() {
       </svg>
     </Container>
   );
-}
+};
+
+export default ReelsPage;
 
 const Container = styled.main`
   display: flex;
@@ -47,23 +48,5 @@ const Container = styled.main`
   height: 100vh;
   width: 100%;
   // 바다색 그라데이션
-  background-color: white;
-`;
-
-const LeftSide = styled.div`
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-`;
-
-const RightSide = styled.div`
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: white;
 `;
