@@ -2,7 +2,7 @@
 
 import styled from "@emotion/styled";
 
-const ReelsPage = () => {
+const FlickPage = () => {
   return (
     <Container>
       {/* <LeftSide>
@@ -39,7 +39,7 @@ const ReelsPage = () => {
   );
 };
 
-export default ReelsPage;
+export default FlickPage;
 
 const Container = styled.main`
   display: flex;
