@@ -51,7 +51,7 @@ const Header = () => {
                 router.push("/reels");
               }}
             >
-              릴스
+              Flick!
             </NavItem>
           </Nav>
         </div>
